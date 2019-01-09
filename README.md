@@ -5,4 +5,4 @@ This is the repo that contains the Latex version of the SVAC report.
 
 Always commit without the temp files. Before pushing, ensure that all temp files are removed from the folder. 
 
-Only the  `.tex`, `.pdf`, `.jpg` and `.png` files are allowed. 
+Only the  `.tex`, `.bib`, `.pdf`, `.jpg` and `.png` files are allowed. 
