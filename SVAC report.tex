@@ -1,0 +1,119 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+
+
+%\renewcommand{\baselinestretch}{1.0} 
+                    
+                    
+%Margins
+\usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
+%geometry{a4paper, total={170mm,257mm}, left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm}
+\setlength{\parindent}{0in}
+\usepackage{enumitem}
+       
+                   
+%Adding Pictures
+\usepackage{graphicx}
+\usepackage{float}
+          
+                    
+%Header and Footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[RO]{ Introduction \hspace{1mm} \textbar \hspace{1mm} \thepage\ }
+\fancyfoot[LE]{ \thepage \hspace{1mm} \textbar \hspace{1mm} DOING BUSINESS IN DELHI: A Compendium }
+\renewcommand{\headrulewidth}{0pt} %change the pt width to insert header line
+\renewcommand{\footrulewidth}{0pt} %change the pt width to insert footer line
+\usepackage{amsmath}
+
+               
+                
+            
+                                      
+%Tables
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{subfig}
+\captionsetup{aboveskip=14pt,}
+\captionsetup[table]{singlelinecheck = false}
+	
+                    
+%Coloured Boxes
+\usepackage{xcolor}
+\usepackage{mdframed}
+           
+                    
+%Custom Spacing
+\usepackage{setspace}
+         
+                    
+%Defining Colours
+\definecolor{CCSbrown}{RGB}{163, 86, 37}
+\definecolor{CCSgrey}{RGB}{105, 105, 105}
+\definecolor{CCSblack}{RGB}{64, 64, 65} 
+             
+             
+%Heading Colours                  
+\usepackage{sectsty}
+\usepackage{titlesec}
+\chapterfont{\color{blue}}  %sets colour of chapters font
+\sectionfont{\color{CCSbrown}}  %sets colour of section font
+\subsectionfont{\color{CCSblack}} %sets colour of subsection font
+\subsubsectionfont{\color{black}} %sets colour of subsubsection font
+		
+    				
+%Bibliography
+\usepackage[authordate, backend=biber]{biblatex-chicago}
+\addbibresource{EWaste.bib}
+\usepackage{hyperref} %activates links 
+\hypersetup{
+colorlinks,
+linkcolor = CCSbrown,
+citecolor = CCSbrown,
+urlcolor = CCSbrown}
+\usepackage{blindtext}
+		
+              
+\begin{document}
+                    
+
+\newpage
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+
+%----------------------------------               
+%TITLE PAGE
+%----------------------------------
+\begin{titlepage}
+\begin{center}
+\line(1,0){300}\\
+[0.25in]
+\huge{\bfseries \textcolor{CCSbrown} {Disruption on Demand}} \\
+[0.5cm]
+\large{A Study of How Aggregators are Challenging \\ the Regulatory Structure} \\
+    	
+\line(1,0){200}\\
+[3in]
+\LARGE{Jayana Bedi, Adarsh Ranjan, \\ Jibin Joseph, and Prajwal Seth} \\ 
+[1.5cm]
+%{\Large Centre for Civil Society} \\
+{\normalsize New Delhi, India} \\
+{\normalsize September 2018} \\
+[1.85cm]
+%\includegraphics[width = 75mm]{CCSlogo.jpg}
+
+\end{center}
+\end{titlepage}
+
+
+%----------------------------------               
+%TOC
+%----------------------------------            
+
+
+SVAC report
+\end{document}
