@@ -1,7 +1,6 @@
 \documentclass[a4paper, 12pt, twoside]{article}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[utf8]{inputenc}
 
 
 %\renewcommand{\baselinestretch}{1.0} 
@@ -9,7 +8,9 @@
                     
 %Margins
 \usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
-%geometry{a4paper, total={170mm,257mm}, left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm}
+
+%For beautiful paragraph spacing
+\usepackage{parskip}
 \setlength{\parindent}{0in}
 \usepackage{enumitem}
        
@@ -24,15 +25,12 @@
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
-\fancyfoot[RO]{ Introduction \hspace{1mm} \textbar \hspace{1mm} \thepage\ }
+\fancyfoot[RO]{Introduction \hspace{1mm} \textbar \hspace{1mm} \thepage\ }
 \fancyfoot[LE]{ \thepage \hspace{1mm} \textbar \hspace{1mm}SVAC Report 2018 }
 \renewcommand{\headrulewidth}{0pt} %change the pt width to insert header line
 \renewcommand{\footrulewidth}{0pt} %change the pt width to insert footer line
 \usepackage{amsmath}
-
-               
-                
-            
+                      
                                       
 %Tables
 \usepackage{booktabs}
@@ -68,7 +66,7 @@
     				
 %Bibliography
 \usepackage[authordate, backend=biber]{biblatex-chicago}
-\addbibresource{EWaste.bib}
+\addbibresource{SVAC.bib}
 \usepackage{hyperref} %activates links 
 \hypersetup{
 colorlinks,
@@ -82,19 +80,15 @@ urlcolor = CCSbrown}
                     
 
 \newpage
-\newlist{abbrv}{itemize}{1}
-\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
 
-%----------------------------------               
-%TITLE PAGE
-%----------------------------------
+%========================TITLE PAGE=================================   
 \begin{titlepage}
 \begin{center}
 \line(1,0){300}\\
 [0.25in]
-\huge{\bfseries \textcolor{CCSbrown} {Main Title}} \\
+\huge{\bfseries \textcolor{CCSbrown} {Annual Report on Implementation of Street Vendors Act, 2014}} \\
 [0.5cm]
-\large{Subtitle} \\
+%\large{Subtitle} \\
     	
 \line(1,0){200}\\
 [2in]
@@ -112,10 +106,91 @@ urlcolor = CCSbrown}
 \end{titlepage}
 
 
-%----------------------------------               
-%TOC
-%----------------------------------            
+%======================TABLE OF CONTENTS============================      
+\tableofcontents   
 
+%======================LIST OF ABBREVIATIONS=========================     
+\newpage
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
 
-SVAC report
+%List of Abbreviations         
+\section*{List of Abbreviations}
+\addcontentsline{toc}{section}{List of Abbreviations}
+        
+\begin{abbrv}
+         
+        \item[CPCB]			Central Pollution Control Board
+        \item[CTE]				Consent to Establish
+        \item[CTO]			Consent to Operate
+        \item[DIC]				District Industries Centre
+        \item[DRS]			Deposit Refund Scheme
+        \item[EEE]				Electronics and Electrical Equipment 
+        \item[EPR]				Extended Producer Responsibility
+        \item[ETP]				Effluent Treatment Plant 
+        \item[GoI]				Government of India
+        \item[EWM]			E-Waste Management
+        \item[HWM]			Hazardous Waste Management
+        \item[MoEFCC]			Ministry of Environment, Forest and Climate Change
+        \item[IT]				Information Technology 
+        \item[MTA]				Metric Tonnes per Annum
+        \item[NCR]			National Capital Region
+        \item[PET]				Polyethylene Terephthalate
+        \item[PRO]			Producer Responsibility Organisation
+        \item[SPCB]			State Pollution Control Board
+        \item[TSDF]			Treatment, Storage and Disposal Facility
+        \item[UP]				Uttar Pradesh
+        
+\end{abbrv}
+
+%===================EXECUTIVE SUMMARY==============================
+\newpage
+\section*{Executive Summary}
+\addcontentsline{toc}{section}{Executive Summary}
+
+%===================STREET VENDORS IN INDIA: AN OVERVIEW=============
+\newpage
+\section{Street Vendors in India: An Overview}
+
+%===================HOW HAS THE JUDICIARY INTERPRETED===============
+\section{How Has the Judiciary Interpreted the Act?}
+
+%===================HOW DO STATES FARE ON IMPLEMENTATION===========
+\section{How Do States Fare on Implementation?}
+
+%===================LESSONS FROM THE FIELD==========================
+\section{Lessons From the Field: Challenges in Implementation}
+
+%===================CONCLUSIONS/RECOMMENDATIONS==================
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusions/Recommendations}
+
+%===================BIBLIOGRAPHY====================================
+\section*{Bibliography}
+\addcontentsline{toc}{section}{Bibliography}
+\printbibliography[heading=none] 
+
+%===================APPENDICES======================================
+%Appendix 1
+\newpage      
+\section*{Appendix 1: References for Legal Analysis}
+\addcontentsline{toc}{section}{Appendix 1: References for Legal Analysis}
+
+%Appendix 2
+\section*{Appendix 2: Formula Used to Calculate the Index}
+\addcontentsline{toc}{section}{Appendix 2: Formula Used to Calculate the Index}
+
+%Appendix 3
+\section*{Appendix 3: Weightage Given to Each Step}
+\addcontentsline{toc}{section}{Appendix 3: Weightage Given to Each Step}
+
+%Appendix 4
+\section*{Appendix 4: Index Score Based on Number of Steps Implemented by Each State}
+\addcontentsline{toc}{section}{Appendix 4:  Index Score Based on Number of Steps Implemented by Each State}
+
+%Appendix 5
+\section*{Appendix 5: Index Score Based on Quantum of \\Difference in Implementation of the Steps by Each State}
+\addcontentsline{toc}{section}{Appendix 5:  Index Score Based on Quantum of Difference in Implementation of the Steps by Each State}
+
+%====================================================================
 \end{document}
