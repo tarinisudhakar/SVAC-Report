@@ -1,10 +1,6 @@
 \documentclass[a4paper, 12pt, twoside]{article}
 \usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
-
-
-%\renewcommand{\baselinestretch}{1.0} 
-                    
+\usepackage[utf8]{inputenc}              
                     
 %Margins
 \usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
@@ -18,6 +14,7 @@
 %Adding Pictures
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{pdflscape} %converts page from to portrait to landscape mode
           
                     
 %Header and Footers
@@ -38,7 +35,11 @@
 \usepackage{subfig}
 \captionsetup{aboveskip=14pt,}
 \captionsetup[table]{singlelinecheck = false}
-	
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage[table]{xcolor} 
+\usepackage{makecell}
+\renewcommand\theadfont{\scriptsize}
                     
 %Coloured Boxes
 \usepackage{xcolor}
@@ -53,6 +54,14 @@
 \definecolor{CCSbrown}{RGB}{163, 86, 37}
 \definecolor{CCSgrey}{RGB}{105, 105, 105}
 \definecolor{CCSblack}{RGB}{64, 64, 65} 
+\definecolor{SVACgreen1}{RGB}{106, 168, 79}
+\definecolor{SVACgreen2}{RGB}{217, 234, 211}
+\definecolor{SVACgreen3}{RGB}{182, 215, 168}
+\definecolor{SVACyellow1}{RGB}{255, 217, 102}
+\definecolor{SVACyellow2}{RGB}{255, 242, 204}
+\definecolor{SVACred1}{RGB}{224, 102, 102}
+\definecolor{SVACred2}{RGB}{234, 153, 153}
+\definecolor{SVACred3}{RGB}{221, 126, 107}
              
              
 %Heading Colours                  
@@ -70,9 +79,9 @@
 \usepackage{hyperref} %activates links 
 \hypersetup{
 colorlinks,
-linkcolor = CCSbrown,
+linkcolor = CCSblack,
 citecolor = CCSbrown,
-urlcolor = CCSbrown}
+urlcolor = CCSblack}
 \usepackage{blindtext}
 		
               
@@ -157,7 +166,418 @@ urlcolor = CCSbrown}
 
 %===================HOW DO STATES FARE ON IMPLEMENTATION===========
 \section{How Do States Fare on Implementation?}
+%Table X: Steps to Implement the Street Vendors Act 2014
+\begin{table}[htpb]
+\caption{Steps to Implement the Street Vendors Act 2014}
+\begin{tabular}{ l  l } %Alignment of Text
+\toprule
+Step 1	&	State government to draft and notify the \textbf{rules} for implementing the Act\\
+Step 2 	&	State government to draft and notify the \textbf{scheme} for implementing the Act\\
+Step 3	&	\textbf{State government to form the Grievance Redressal Committee}\\
+Step 4	&	\textbf{State government to form the TVC}\\
+Step 5	&	\textbf{Election for vendor representation in the TVC}\\
+Step 6	&	\textbf{TVC to conduct a survey of vendors}\\
+Step 7	&	TVC to \textbf{issue ID cards to vendors}\\
+Step 8	&	\textbf{TVC to earmark vending zones}\\
+Step 9 	&	\textbf{Local authority to draft and publish a street vending plan}\\
+Step 10	&	\textbf{TVC to publish the street vendor charter}\\
+Step 11	&	Local authority to \textbf{assign office space to the TVC}\\
+\bottomrule
+\end{tabular}
+\end{table}
 
+%Table X: States Where TVCs Have Assigned Office Space
+\begin{table}[htpb]
+\caption{States Where TVCs Have Assigned Office Space}
+\begin{tabular}{ l  r r r } %Alignment of Text
+\toprule
+States & \multicolumn{1}{p{9em}}{Assigned Office Space to TVCs} & \multicolumn{1}{p{9em}}{Number of TVCs with Assigned Office Space} & \multicolumn{1}{p{9em}}{Percentage of TVCs with Assigned Office Space}\\
+\midrule
+Chandigarh & 1 & 1 & 100\\
+Madhya Pradesh & 364 & 58 & 16\\
+Manipur & 28 & 6 & 21\\
+Puducherry & 5 & 5 & 100\\
+Punjab & 165 & 163 & 99\\
+Rajasthan & 189 & 189 & 100\\
+\bottomrule 
+\end{tabular}
+\end{table}
+
+%Table X: Step-Wise Data on Implementation for 30 states, as of October 31 2019        
+            \scriptsize
+             \begin{landscape}
+  \rowcolors{2}{gray!25}{white}
+            \begin{longtable}{>{\raggedright}p{2cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{1.0cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}}
+            \caption{Step-Wise Data on Implementation for 30 states, as of October 31 2019}\\
+\rotatebox[origin=c]{90}{States} & 
+\rotatebox[origin=c]{90}{Rules} & 
+\rotatebox[origin=c]{90}{Scheme} & 
+\rotatebox[origin=c]{90}{Towns} & 
+\rotatebox[origin=c]{90}{Total TVCs} & 
+\rotatebox[origin=c]{90}{\thead{Total TVCs/ \\ Total towns (\%)}} & 
+\rotatebox[origin=c]{90}{\thead{Have vendor \\ representatives}} & 
+\rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ vendor representatives}} &
+\rotatebox[origin=c]{90}{Completed enumeration} &
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ completed enumeration}} &
+ \rotatebox[origin=c]{90}{\thead{Issued IDs to \textgreater \\ 75\% vendors}} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ issued ID \textgreater  75\% of \\ identified vendors}} & 
+ \rotatebox[origin=c]{90}{Published plan} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ published plan}} & 
+ \rotatebox[origin=c]{90}{Vending zones} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that marked \\ vending zones}} & 
+ \rotatebox[origin=c]{90}{Published charter} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ published charter}} & 
+ \rotatebox[origin=c]{90}{Assigned office space} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that have \\ assigned office space}} & 
+ \rotatebox[origin=c]{90}{\# of GRCs in the state} & 
+ \rotatebox[origin=c]{90}{\% of towns with GRC} \\
+\endfirsthead
+\rotatebox[origin=c]{90}{States} & 
+\rotatebox[origin=c]{90}{Rules} & 
+\rotatebox[origin=c]{90}{Scheme} & 
+\rotatebox[origin=c]{90}{Towns} & 
+\rotatebox[origin=c]{90}{Total TVCs} & 
+\rotatebox[origin=c]{90}{\thead{Total TVCs/ \\ Total towns (\%)}} & 
+\rotatebox[origin=c]{90}{\thead{Have vendor \\ representatives}} & 
+\rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ vendor representatives}} &
+\rotatebox[origin=c]{90}{Completed enumeration} &
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ completed enumeration}} &
+ \rotatebox[origin=c]{90}{\thead{Issued IDs to \textgreater \\ 75\% vendors}} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that issued ID \textgreater \\ 75\% of identified vendors}} & 
+ \rotatebox[origin=c]{90}{Published plan} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ published plan}} & 
+ \rotatebox[origin=c]{90}{Vending zones} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that marked \\ vending zones}} & 
+ \rotatebox[origin=c]{90}{Published charter} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ published charter}} & 
+ \rotatebox[origin=c]{90}{Assigned office space} & 
+ \rotatebox[origin=c]{90}{\thead{\% of TVCs that have \\ assigned office space}} & 
+ \rotatebox[origin=c]{90}{\# of GRCs in the state} & 
+ \rotatebox[origin=c]{90}{\% of towns with GRC} \\
+\endhead
+\endfoot
+\hline
+\endlastfoot
+\midrule
+
+AP & Y & Y & 110 & 110 & 100 & 110 & 100 & 110 & 100 & 85 & 77 & 1 & 1 & 50 & 45 & 0 & 0 & 0 & 0 & 0 & 0 \\
+AR & N & N & 33 & 15 & 45 & 10 & 67 & 14 & 93 & 14 & 93 & 8 & 53 & 4 & 27 & 0 & 0 & 0 & 0 & 0 & 0 \\
+AS & Y & Y & 110 & 24 & 22 & 0 & 0 & 24 & 100 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 4 & 4 \\
+BR & Y & Y & 144 & 144 & 100 & 0 & 0 & 46 & 32 & 42 & 29 & 3 & 2 & 46 & 32 & 42 & 29 & 0 & 0 & 0 & 0 \\
+CH & Y & Y & 1 & 1 & 100 & 1 & 100 & 1 & 100 & 0 & 0 & 1 & 100 & 1 & 100 & 0 & 0 & 1 & 100 & 0 & 0 \\
+CG & Y & Y & 169 & 64 & 38 & 0 & 0 & 64 & 100 & 35 & 55 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+GA & Y & Y & 14 & 14 & 100 & 14 & 100 & 11 & 79 & 2 & 14 & 4 & 29 & 4 & 29 & 0 & 0 & 0 & 0 & 0 & 0 \\
+GJ & Y & N & 169 & 169 & 100 & 12 & 7 & 168 & 99 & 168 & 99 & 131 & 78 & 131 & 78 & 0 & 0 & 0 & 0 & 0 & 0 \\
+HR & Y & N & 80 & 80 & 100 & 0 & 0 & 80 & 100 & 0 & 0 & 58 & 73 & 72 & 90 & 0 & 0 & 0 & 0 & 0 & 0 \\
+HP & Y & Y & 54 & 39 & 72 & 39 & 100 & 40 & 103 & 9 & 23 & 31 & 79 & 25 & 64 & 0 & 0 & 0 & 0 & 0 & 0 \\
+JH & Y & Y & 48 & 44 & 92 & 44 & 100 & 44 & 100 & 22 & 50 & 21 & 48 & 34 & 77 & 0 & 0 & 0 & 0 & 0 & 0 \\
+KA & N & N & 271 & 265 & 98 & 0 & 0 & 265 & 100 & 0 & 0 & 4 & 2 & 4 & 2 & 0 & 0 & 0 & 0 & 0 & 0 \\
+KL & Y & N & 93 & 93 & 100 & 0 & 0 & 93 & 100 & 33 & 35 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+MP & Y & N & 364 & 58 & 16 & 58 & 100 & 58 & 100 & 0 & 0 & 0 & 0 & 58 & 100 & 4 & 7 & 58 & 100 & 3 & 1 \\
+MH & Y & Y & 3799 & 97 & 3 & 24 & 25 & 17 & 18 & 0 & 0 & 0 & 0 & 8 & 8 & 7 & 7 & 0 & 0 & 0 & 0 \\
+MN & Y & N & 28 & 6 & 21 & 0 & 0 & 2 & 33 & 1 & 17 & 2 & 33 & 2 & 33 & 0 & 0 & 6 & 100 & 0 & 0 \\
+ML & Y & Y & 7 & 7 & 100 & 0 & 0 & 3 & 43 & 1 & 14 & 0 & 0 & 1 & 14 & 0 & 0 & 0 & 0 & 0 & 0 \\
+MZ & Y & Y & 6 & 6 & 100 & 6 & 100 & 6 & 100 & 5 & 83 & 5 & 83 & 5 & 83 & 0 & 0 & 0 & 0 & 0 & 0 \\
+NL & N & N & 11 & 2 & 18 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 100 & 0 & 0 & 0 & 0 & 0 & 0 \\
+OD & Y & Y & 112 & 104 & 93 & 104 & 100 & 111 & 107 & 21 & 20 & 5 & 5 & 5 & 5 & 15 & 14 & 0 & 0 & 0 & 0 \\
+PY & Y & N & 5 & 5 & 100 & 0 & 0 & 5 & 100 & 5 & 100 & 5 & 100 & 5 & 100 & 5 & 100 & 5 & 100 & 0 & 0 \\
+PB & Y & Y & 165 & 165 & 100 & 165 & 100 & 163 & 99 & 61 & 37 & 0 & 0 & 3 & 2 & 0 & 0 & 163 & 99 & 13 & 8 \\
+RJ & Y & Y & 189 & 189 & 100 & 189 & 100 & 189 & 100 & 85 & 45 & 7 & 4 & 126 & 67 & 1 & 1 & 189 & 100 & 0 & 0 \\
+SK & Y & N & 4 & 3 & 75 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+TN & Y & Y & 721 & 482 & 67 & 482 & 100 & 664 & 138 & 482 & 100 & 164 & 34 & 0 & 0 & 664 & 138 & 0 & 0 & 0 & 0 \\
+TS & N & Y & 74 & 103 & 139 & 103 & 100 & 66 & 64 & 72 & 70 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+TR & Y & Y & 20 & 20 & 100 & 0 & 0 & 5 & 25 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+UP & Y & Y & 130 & 30 & 23 & 30 & 100 & 30 & 100 & 30 & 100 & 16 & 53 & 29 & 97 & 0 & 0 & 0 & 0 & 0 & 0 \\
+UK & Y & Y & 93 & 40 & 43 & 0 & 0 & 55 & 138 & 10 & 25 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+WB & Y & N & 239 & 3 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+Sum Total / \% & 0 & 0 & 7263 & 2382 & 33 & 1391 & 58 & 2334 & 98 & 1183 & 50 & 466 & 20 & 615 & 26 & 738 & 31 & 422 & 18 & 21 & 13 \\
+No. of States that \\ Initiated Work & 24 & 0 &  & 30 &  & 16 &  & 27 &  & 20 &  & 17 &  & 21 &  & 7 &  & 6 &  & 4 & 4 \\
+
+\end{longtable}
+\end{landscape}
+
+%Table X: Compliance of States with the Act: Ranking Based on the Depth of Implementation of Each Step
+\footnotesize
+\begin{longtable}[l]{>{\raggedright}p{4cm}>{\raggedright\arraybackslash}p{10cm}}
+\caption{Compliance of States with the Act: Ranking Based on the Depth of Implementation of Each Step}\\
+	\toprule
+	States & Insights \\
+	\midrule
+	\endfirsthead
+	\toprule
+	States & Insights \\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\endlastfoot
+	\multicolumn{2}{c}{States with Best Compliance (Index Score Above 70)}\\
+	\midrule
+\cellcolor{SVACgreen1}\bf{Tamil Nadu}
+\newline
+Score: 76
+\newline
+Steps: 8/11
+& 
+\cellcolor{SVACgreen2}The Act mandates the TVCs to enumerate vendors. The rules published by Tamil Nadu reiterated the mandates. "The survey of street vendors shall be carried out by the Town Vending Committee and completed within a period of six months from the date on which the scheme is notified." However, while 482 out of 721 towns (67 percent) have formed a TVC, 664 towns (92 percent) have enumerated vendors. Is it possible that one TVC is administering the surveys in more than one town? 
+\\	
+\cellcolor{SVACgreen1}\bf{Mizoram}
+\newline
+\bf{Score: 75}
+\newline
+\bf{Steps: 8/11}
+& 
+\cellcolor{SVACgreen2}All six towns have a TVC with vendor representatives. The TVCs, however, do not have an assigned space or published the charter. There are no grievance redressal bodies. 
+\\
+\cellcolor{SVACgreen1}\bf{Chandigarh}
+\newline
+\bf{Score: 75}
+\newline
+\bf{Steps: 8/11}
+& 
+\cellcolor{SVACgreen2}There is one TVC; with elected vendor representatives. It has identified 9353 vendors but has not issued identity cards and, consequently, has not yet published the charter. There are no grievance redressal bodies. 
+\\
+\cellcolor{SVACgreen1}\bf{Rajasthan}
+\newline
+\bf{Score: 70}
+\newline
+\bf{Steps: 10/11}
+&
+\cellcolor{SVACgreen2}Per the Act, the vending zones should be earmarked following the guidelines laid down in the vending plan. While 4 percent of the towns have published the plan, 67 percent of TVCs have already earmarked vending zones.	
+\\
+\midrule
+\multicolumn{2}{l}{States with Good Compliance (Index score Between 50 to 70)}\\
+\midrule
+\cellcolor{SVACgreen3}\bf{Jharkhand}
+\newline
+\bf{Score: 69}
+\newline
+\bf{Steps: 8/11}
+&
+\cellcolor{SVACgreen2}While 44 percent of the towns have published the vending plan, 77 percent of the TVCs in the state have earmarked vending zones. 
+\\
+\cellcolor{SVACgreen3}\bf{Himachal Pradesh}
+\newline
+\bf{Score: 69}
+\newline
+\bf{Steps: 8/11}
+& 
+\cellcolor{SVACgreen2}Ninety-three percent of the towns have formed a TVC. Per the rules notified in December 2016, the TVCs are provisional and will be replaced once survey and election of vendors are complete. Until then, the vendor representatives are nominated.
+
+Although TVCs are there only in 39 towns, vendor enumeration is complete in 41 towns. It is possible that one TVC is administering enumeration in more than one town.
+\\
+\cellcolor{SVACgreen3}\bf{Uttar Pradesh}
+\newline
+\bf{Score: 67}
+\newline
+\bf{Steps: 8/11}
+& 
+\cellcolor{SVACgreen2}Thirty out of 130 towns have formed a TVC with vendor representation. The Uttar Pradesh Street Vendors Rules (2017) call for registered associations of street vendors to apply for membership in a TVC. The members of the vendor association elect the representative from the association. If the number of applicants is higher than required, the municipality conducts a lottery. The 30 TVCs have enumerated vendors and issued identity cards. Also, 13 TVCs have earmarked vending zones in the absence of a plan.
+\\
+\cellcolor{SVACgreen3}\bf{Puducherry}
+\newline
+\bf{Score: 66}
+\newline
+\bf{Steps: 8/11}
+&
+\cellcolor{SVACgreen2}Puducherry has complied fully with all steps except three: notification of scheme, constitution of a Grievance Redressal Committee, and appointment of vendor representatives in the TVCs. Enumeration, registration and demarcation of vending zones without vendor representatives in the TVC defeat the purpose a participatory committee.
+\\
+\cellcolor{SVACgreen3}\bf{Punjab}
+\newline
+\bf{Score: 65}
+\newline
+\bf{Steps: 9/11}
+&
+\cellcolor{SVACgreen2}Punjab is one of the four states that have formed the Grievance Redressal Committee.
+
+The Act mandates the state to define the process of election for representing vendors in the TVC. Punjab has used “show of hands” as the way to elect vendors. On the basis of  this, all 165 towns have vendor representation in the TVCs.
+
+
+In the absence of a vending plan, vending zones have been earmarked in three towns.
+\\
+\cellcolor{SVACgreen3}\bf{Odisha}
+\newline
+\bf{Score: 60}
+\newline
+\bf{Steps: 9/11}
+&
+\cellcolor{SVACgreen2}Odisha has implemented 9 out of 11 steps: all 105 towns have formed a TVC with elected vendor representation; 79\% of the TVCs have enumerated vendors; 14 out of the TVCs have issued identity cards and 5 percent of the towns have published a plan and earmarked vending zones.
+\\
+\cellcolor{SVACgreen3}\bf{Goa}
+\newline
+\bf{Score: 60}
+\newline
+\bf{Steps: 8/11}
+&
+\cellcolor{SVACgreen2}Goa has formed TVCs in all 14 towns with street vendor representatives. Only two TVCs have issued ID cards and four have earmarked vending zones. There are no dispute redressal committees. 
+\\
+\cellcolor{SVACgreen3}\bf{Andhra Pradesh}
+\newline
+\bf{Score: 59}
+\newline
+\bf{Steps: 8/11}
+&
+\cellcolor{SVACgreen2}In Andhra Pradesh 1 town has published the plan but 40 TVCs have earmarked vending zones. It is not clear whether one plan is being used to earmark vending zones in all 40. If not, then how have TVCs earmarked no-vending, restricted vending and vending zones? What are the spatial planning norms used?
+\\
+\cellcolor{SVACgreen3}\bf{Gujarat}
+\newline
+\bf{Score: 53}
+\newline
+\bf{Steps: 7/11}
+&
+\cellcolor{SVACgreen2}Gujarat has notified the rules not the scheme. A scheme is to specify the manner of conducting the survey and the form and manner of issuing ID cards. In the absence of a scheme, 168 out of 169 TVCs have already completed the enumeration exercise and issued identification to more than 75 percent vendors.
+\\
+\cellcolor{SVACgreen3}\bf{Telangana}
+\newline
+\bf{Score: 53}
+\newline
+\bf{Steps: 5/11}
+&
+\cellcolor{SVACgreen2}Due to the dissolution of the state government in early 2017, there has been a delay in notifying the rules. However, the state has published the scheme.
+
+Seventy-four towns in the state shave formed 103 TVCs with elected vendors.
+\\
+\midrule
+\multicolumn{2}{l}{States with Moderate Compliance (Index Score Between 50 to 59)}\\
+\midrule
+\cellcolor{SVACyellow1}\bf{Bihar}
+\newline
+\bf{Score: 47}
+\newline
+\bf{Steps: 8/11}
+&
+\cellcolor{SVACyellow2}All 144 towns in Bihar have formed a TVC without vendor representation. Only 3 towns have published the plan but 46 TVCs have already earmarked vending zones.
+\\
+\cellcolor{SVACyellow1}\bf{Uttarakhand}
+\newline
+\bf{Score: 47}
+\newline
+\bf{Steps: 6/11}
+&
+\cellcolor{SVACyellow2}In Uttarakhand, 40 out of 93 towns have a TVC. Vendor enumeration is complete in 55 towns. 10 TVCs have issued identity cards to more than 75 percent of vendors. However, none of the TVCs have vendor representatives so far.
+\\
+\cellcolor{SVACyellow1}\bf{Madhya Pradesh}
+\newline
+\bf{Score: 46}
+\newline
+\bf{Steps: 8/11}
+&
+\cellcolor{SVACyellow2}Madhya Pradesh has implemented 8 out of 11 steps in less than a third of the towns.
+\\
+\cellcolor{SVACyellow1}\bf{Haryana}
+\newline
+\bf{Score: 46}
+\newline
+\bf{Steps: 5/11}
+&
+\cellcolor{SVACyellow2}In Haryana, there are 76 TVCs for 80 towns. None of the TVCs have vendor representatives. The state has not notified the scheme but has completed enumeration in all towns; 58 towns have a plan but 72 have earmarked vending zones.
+\\
+\cellcolor{SVACyellow1}\bf{Chhattisgarh}
+\newline
+\bf{Score: 36}
+\newline
+\bf{Steps: 5/11}
+&
+\cellcolor{SVACyellow2}Sixty four out of 169 towns in Chhattisgarh have a TVC but without vendor representation. All 64 TVCs have completed the survey. Also, 35 TVCs have issued ID cards to more than 75 percent of identified vendors.
+\\
+\cellcolor{SVACyellow1}\bf{Meghalaya}
+\newline
+\bf{Score: 43}
+\newline
+\bf{Steps: 6/11}
+&
+\cellcolor{SVACyellow2}In Meghalaya, there are seven TVCs but without vendor representation. One town has marked vending zones but without a plan.
+\\
+\cellcolor{SVACyellow1}\bf{Tripura}
+\newline
+\bf{Score: 40}
+\newline
+\bf{Steps: 4/11}
+&
+\cellcolor{SVACyellow2}Tripura has formed TVCs in all 20 towns but only 25 percent of the TVCs have enumerated vendors.
+\\
+\cellcolor{SVACyellow1}\bf{Assam}
+\newline
+\bf{Score: 39}
+\newline
+\bf{Steps: 5/11}
+&
+\cellcolor{SVACyellow2}Assam is one of the four states that have formed Grievance Redressal Committees.
+\\
+\cellcolor{SVACyellow1}\bf{Kerala}
+\newline
+\bf{Score: 37}
+\newline
+\bf{Steps: 4/11}
+&
+\cellcolor{SVACyellow2}Kerala has a TVC in all its towns but without vendor representation. Vendor enumeration is complete in all TVCs and 35 percent of these TVCs have issued identity cards, without a scheme in place.
+\\
+\cellcolor{SVACyellow1}\bf{Arunachal Pradesh}
+\newline
+\bf{Score: 34}
+\newline
+\bf{Steps: 7/11}
+&
+\cellcolor{SVACyellow2}Arunachal Pradesh is one of the four states without rules in place. The delay in the implementation may be attributed to the process to repeal the Arunachal Pradesh Street Vendors Act, 2011. However, the repeal Act saves all orders and action taken under the 2011 Act indicating that the state had not progressed significantly under the previous Act.
+\\
+\cellcolor{SVACyellow1}\bf{Maharashtra}
+\newline
+\bf{Score: 32}
+\newline
+\bf{Steps: 7/11}
+&
+\cellcolor{SVACyellow2}Ninety-seven out of 3799 towns have formed a TVC.
+\\
+\midrule
+\multicolumn{2}{l}{States with Poor Compliance (Index Score Between 30 to 49)}\\
+\midrule
+\cellcolor{SVACred1}\bf{Manipur}
+\newline
+\bf{Score: 29}
+\newline
+\bf{Steps: 7/11}
+&
+\cellcolor{SVACred2}Manipur has enumerated vendors, issued identity cards, published a plan and earmarked vending zones but in the absence of a scheme.
+\\
+\cellcolor{SVACred1}\bf{Karnataka}
+\newline
+\bf{Score: 23}
+\newline
+\bf{Steps: 4/11}
+&
+\cellcolor{SVACred2}Karnataka has formed 265 TVCs in 237 states. The TVCs have enumerated vendors as well. However, the state has not yet notified the rules or the scheme, raising questions on the tenability of the progress.
+\\
+\cellcolor{SVACred1}\bf{Sikkim}
+\newline
+\bf{Score: 21}
+\newline
+\bf{Steps: 2/11}
+&
+\cellcolor{SVACred2}Sikkim has not yet published the scheme.
+\\
+\cellcolor{SVACred1}\bf{West Bengal}
+\newline
+\bf{Score: 13}
+\newline
+\bf{Steps: 2/11}
+&
+\cellcolor{SVACred2}West Bengal has notified the rules and formed TVCs in 3 out of 239 towns, accounting for 1\%, the lowest among all states.
+\\
+\midrule
+\multicolumn{2}{l}{States with Very Poor Compliance (Index Score Less Than 29)}\\
+\midrule
+\cellcolor{SVACred3}\bf{Nagaland}
+\newline
+\bf{Score: 3}
+\newline
+\bf{Steps: 2/11}
+&
+\cellcolor{SVACred2}Nagaland has not notified rules and scheme. It has formed TVCs in 2 out of 11 towns and has earmarked vending zones in the two areas.\\
+\bottomrule
+	\end{longtable}
+	
+	
 %===================LESSONS FROM THE FIELD==========================
 \section{Lessons From the Field: Challenges in Implementation}
 
