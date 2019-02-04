@@ -87,28 +87,6 @@
       \verb https://bit.ly/2UHd3r0
       \endverb
     \endentry
-    \entry{ncrpbreport}{report}{}
-      \list{institution}{1}{%
-        {National Capital Region Planning Board, Ministry of Urban Development, Govt. of India}%
-      }
-      \list{location}{1}{%
-        {New Delhi, India}%
-      }
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{title}{Draft Revised Regional Plan 2021 National Capital Region}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://bit.ly/2RCWnPz
-      \endverb
-      \verb{url}
-      \verb https://bit.ly/2RCWnPz
-      \endverb
-    \endentry
     \entry{hayekpaper}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=60c0d366fef77217ae7c9a7e3dab2c20}{%
@@ -138,6 +116,40 @@
       \endverb
       \verb{url}
       \verb https://bit.ly/2TqX3bU
+      \endverb
+    \endentry
+    \entry{iloreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6723fa2369563301a71ba27e0b472aff}{%
+           family={{International Labour Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Labour Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{fullhash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{bibnamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authorbibnamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authornamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authorfullhash}{6723fa2369563301a71ba27e0b472aff}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Women and Men in the Informal Economy: A Statistical Picture}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2P5g4y4
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2P5g4y4
       \endverb
     \endentry
     \entry{jhapaper}{article}{}
@@ -171,6 +183,37 @@
       \verb https://bit.ly/2WGeYhi
       \endverb
     \endentry
+    \entry{kpmgreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6d0aa49c92033841df105790bbfa3829}{%
+           family={{KPMG India}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {KPMG India}%
+      }
+      \strng{namehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{fullhash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{bibnamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authorbibnamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authornamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authorfullhash}{6d0aa49c92033841df105790bbfa3829}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Urbanisation in the National Capital Region- Overcoming Challenges to improve live-ability}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2t1ndqv
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2t1ndqv
+      \endverb
+    \endentry
     \entry{naikpaper}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=5a1c4cde1246f56c5776298b059aecf4}{%
@@ -202,6 +245,40 @@
       \endverb
       \verb{url}
       \verb https://bit.ly/2WFrvkZ
+      \endverb
+    \endentry
+    \entry{ncrpbreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=40cc8c9d2d2ed58f3fb723bb9da236ae}{%
+           family={{NCRPB}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Capital Region Planning Board, Ministry of Urban Development, Govt. of India}%
+      }
+      \list{location}{1}{%
+        {New Delhi, India}%
+      }
+      \strng{namehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{fullhash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{bibnamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authorbibnamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authornamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authorfullhash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Draft Revised Regional Plan 2021 National Capital Region}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2RCWnPz
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2RCWnPz
       \endverb
     \endentry
     \entry{sallypaper}{article}{}
@@ -273,25 +350,6 @@
       \verb https://bit.ly/2RB6QL1
       \endverb
     \endentry
-    \entry{kpmgreport}{report}{}
-      \list{institution}{1}{%
-        {KPMG India}%
-      }
-      \field{sortinit}{U}
-      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{title}{Urbanisation in the National Capital Region- Overcoming Challenges to improve live-ability}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://bit.ly/2t1ndqv
-      \endverb
-      \verb{url}
-      \verb https://bit.ly/2t1ndqv
-      \endverb
-    \endentry
     \entry{vermanews}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=585e2df0e223aa57821bc62ce5123735}{%
@@ -322,28 +380,6 @@
       \endverb
       \verb{url}
       \verb https://bit.ly/2LdaOdJ
-      \endverb
-    \endentry
-    \entry{iloreport}{report}{}
-      \list{institution}{1}{%
-        {International Labour Organization}%
-      }
-      \list{location}{1}{%
-        {Geneva}%
-      }
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{title}{Women and Men in the Informal Economy: A Statistical Picture}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://bit.ly/2P5g4y4
-      \endverb
-      \verb{url}
-      \verb https://bit.ly/2P5g4y4
       \endverb
     \endentry
   \enddatalist
