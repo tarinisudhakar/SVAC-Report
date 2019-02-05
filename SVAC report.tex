@@ -9,6 +9,7 @@
 \usepackage{parskip}
 \setlength{\parindent}{0in}
 \usepackage{enumitem}
+\usepackage{setspace}
 
 %Adding Pictures
 \usepackage{graphicx}
@@ -43,6 +44,10 @@
 \usepackage[table]{xcolor}
 \usepackage{makecell}
 \renewcommand\theadfont{\scriptsize}
+\usepackage{array}
+\usepackage{cellspace}
+\setlength\cellspacetoplimit{3pt}
+\setlength\cellspacebottomlimit{3pt}
 
 %Coloured Boxes
 \usepackage{xcolor}
@@ -54,6 +59,7 @@
 \pretolerance=10000
 \tolerance=2000
 \emergencystretch=10pt
+
 %preventing widow/orphan lines
 \widowpenalty10000 % required to prevent widow/orphan lines
 \clubpenalty10000 % required to prevent widow/orphan lines
@@ -834,59 +840,31 @@ Seventy-four towns in the state shave formed 103 TVCs with elected vendors.
              \begin{landscape}
   \rowcolors{2}{gray!25}{white}
   \centering
-            \begin{longtable}[l]{>{\raggedright}p{2cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{1.0cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright\arraybackslash}p{0.5cm}}
+            \begin{longtable}{p{2cm}p{0.5cm}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{1.0cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft\arraybackslash}p{0.5cm}}
             \caption{Step-Wise Data on Implementation for 30 states, as of October 31 2019}
             \label{tab: Index}\\
-\rotatebox[origin=c]{90}{\raggedright{States}} &
-\rotatebox[origin=c]{90}{Rules} &
-\rotatebox[origin=c]{90}{Scheme} &
-\rotatebox[origin=c]{90}{Towns} &
-\rotatebox[origin=c]{90}{Total TVCs} &
-\rotatebox[origin=c]{90}{\thead{Total TVCs/ \\ Total towns (\%)}} &
-\rotatebox[origin=c]{90}{\thead{Have vendor \\ representatives}} &
-\rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ vendor representatives}} &
-\rotatebox[origin=c]{90}{Completed enumeration} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ completed enumeration}} &
- \rotatebox[origin=c]{90}{\thead{Issued IDs to \textgreater \\ 75\% vendors}} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ issued ID \textgreater  75\% of \\ identified vendors}} &
- \rotatebox[origin=c]{90}{Published plan} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ published plan}} &
- \rotatebox[origin=c]{90}{Vending zones} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that marked \\ vending zones}} &
- \rotatebox[origin=c]{90}{Published charter} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ published charter}} &
- \rotatebox[origin=c]{90}{Assigned office space} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that have \\ assigned office space}} &
- \rotatebox[origin=c]{90}{\# of GRCs in the state} &
- \rotatebox[origin=c]{90}{\% of towns with GRC} \\
-\endfirsthead
-\rotatebox[origin=c]{90}{States} &
-\rotatebox[origin=c]{90}{Rules} &
-\rotatebox[origin=c]{90}{Scheme} &
-\rotatebox[origin=c]{90}{Towns} &
-\rotatebox[origin=c]{90}{Total TVCs} &
-\rotatebox[origin=c]{90}{\thead{Total TVCs/ \\ Total towns (\%)}} &
-\rotatebox[origin=c]{90}{\thead{Have vendor \\ representatives}} &
-\rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ vendor representatives}} &
-\rotatebox[origin=c]{90}{Completed enumeration} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ completed enumeration}} &
- \rotatebox[origin=c]{90}{\thead{Issued IDs to \textgreater \\ 75\% vendors}} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that issued ID \textgreater \\ 75\% of identified vendors}} &
- \rotatebox[origin=c]{90}{Published plan} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ published plan}} &
- \rotatebox[origin=c]{90}{Vending zones} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that marked \\ vending zones}} &
- \rotatebox[origin=c]{90}{Published charter} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ published charter}} &
- \rotatebox[origin=c]{90}{Assigned office space} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that have \\ assigned office space}} &
- \rotatebox[origin=c]{90}{\# of GRCs in the state} &
- \rotatebox[origin=c]{90}{\% of towns with GRC} \\
-\endhead
-\endfoot
-\hline
-\endlastfoot
-\midrule
+States &
+\rotatebox{90}{Rules} &
+\rotatebox{90}{Scheme} &
+\rotatebox{90}{Towns} &
+\rotatebox{90}{Total TVCs} &
+\rotatebox{90}{\thead{Total TVCs/ \\ Total towns (\%)}} &
+\rotatebox{90}{\thead{Have vendor \\ representatives}} &
+\rotatebox{90}{\thead{\% of TVCs with \\ vendor representatives}} &
+\rotatebox{90}{Completed enumeration} &
+ \rotatebox{90}{\thead{\% of TVCs that \\ completed enumeration}} &
+ \rotatebox{90}{\thead{Issued IDs to \textgreater 75\% \\ vendors}} &
+ \rotatebox{90}{\thead{\% of TVCs that \\ issued ID \textgreater  75\% of \\ identified vendors}} &
+ \rotatebox{90}{Published plan} &
+ \rotatebox{90}{\thead{\% of TVCs with \\ published plan}} &
+ \rotatebox{90}{Vending zones} &
+ \rotatebox{90}{\thead{\% of TVCs that marked \\ vending zones}} &
+ \rotatebox{90}{Published charter} &
+ \rotatebox{90}{\thead{\% of TVCs that \\ published charter}} &
+ \rotatebox{90}{Assigned office space} &
+ \rotatebox{90}{\thead{\% of TVCs that have \\ assigned office space}} &
+ \rotatebox{90}{\# of GRCs in the state} &
+ \rotatebox{90}{\% of towns with GRC} \\
 
 AP & Y & Y & 110 & 110 & 100 & 110 & 100 & 110 & 100 & 85 & 77 & 1 & 1 & 50 & 45 & 0 & 0 & 0 & 0 & 0 & 0 \\
 AR & N & N & 33 & 15 & 45 & 10 & 67 & 14 & 93 & 14 & 93 & 8 & 53 & 4 & 27 & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -920,7 +898,7 @@ UK & Y & Y & 93 & 40 & 43 & 0 & 0 & 55 & 138 & 10 & 25 & 0 & 0 & 0 & 0 & 0 & 0 &
 WB & Y & N & 239 & 3 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
 \midrule
 Sum Total / \% & 0 & 0 & 7263 & 2382 & 33 & 1391 & 58 & 2334 & 98 & 1183 & 50 & 466 & 20 & 615 & 26 & 738 & 31 & 422 & 18 & 21 & 13 \\
-No. of States that \\ Initiated Work & 24 & 0 &  & 30 &  & 16 &  & 27 &  & 20 &  & 17 &  & 21 &  & 7 &  & 6 &  & 4 & 4 \\
+No. of States that Initiated Work & 24 & 0 &  & 30 &  & 16 &  & 27 &  & 20 &  & 17 &  & 21 &  & 7 &  & 6 &  & 4 & 4 \\
 
 \end{longtable}
 \end{landscape}
@@ -1164,14 +1142,14 @@ Relevant \\ (Y/N) &
 Issue &
 Outcome &
 Decisions/Rule Laid Down &
-Significance (1-5) \footnotemark \\
+Significance (1-5) \\
 \midrule
 \endhead
 \bottomrule
 \endfoot
 \bottomrule
 \endlastfoot
-
+\footnotetext{Significance indicated the likelihood of a case to be quoted and cited in subsequent decisions.}
 
 MANU/TN/10\\57/2018 & A.T. Mhammed Ismail and Ors. v The Commissioner Greater Chennai Corporation and Ors & W.P. Nos. 4171 and 4172 of 2018 & High Court of Madras & Tamil Nadu & 2/26/2018 & Y & Eviction & Deferred  & When statute contemplates issuance of certificate, and right to carry on business of street vending in accordance with the terms and conditions mentioned in the certificate of vending, and when a representation is made by the street vendors, it is the duty of the competent authority to consider such representation and pass appropriate orders. & 2  \\
 
@@ -1272,7 +1250,6 @@ MANU/DE/20\\90/2018 & Vijay Kumar Sahu and Ors v Govt. of NCT and Ors & W.P.(C) 
 2017 SCC ONLINE DEL 11779 & Virender v South Delhi Municipal Corporation & WP(C) 11552/2016 & High Court of Delhi & Delhi & 10/25/2017 & Y & Definition- Street Vendor; Eviction & Partially dismissed; consent decree & No-vending zone as decided prior to the Act to be continued; Act is applicable only to \quotes{regular street vendors}. No relief to be granted to petitioner 1 to 9 who are not regular street vendors. & 2 \\
 
 \end{longtable}
-\footnotetext{Significance indicated the likelihood of a case to be quoted and cited in subsequent decisions.}
 \end{landscape}
 
 
@@ -1329,9 +1306,6 @@ $V_{11}$ & Proportion of TVCs that have \textbf{assigned office space} & 4 & $4 
 \addcontentsline{toc}{section}{Appendix 3: Questionnaire for SV Act Implementation}
 \label{sec: Appendix 5}
 
-%Appendix 4
-\section*{Appendix 4: Index Score Based on the Depth Implementation of the Steps by Each State}
-\addcontentsline{toc}{section}{Appendix 4: Index Score Based on Quantum of Difference in Implementation of the Steps by Each State}
 
 \begin{mdframed}[backgroundcolor=gray!20]
 \textbf{Module A: Basic information}
@@ -1341,6 +1315,7 @@ A1. Name of the respondent:
 A2. Gender: M/F/Other
 
 A3. Designation in committee:
+
 
 \textbf{Module B: Constitution of a Town Vending Committee}
 
@@ -1352,7 +1327,7 @@ B3. How many members are there on the committee?
 
 B4. What is your role in the committee? (Specify organisation where necessary)
 
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Municipal commissioner
 \item Local body official
 \item Traffic Police official
@@ -1374,7 +1349,7 @@ B6. Who is the Chairperson of the town vending committee of each ward/zone?
 B7. Since when have you been a part of this TVC?
 
 B8. How did you become a part of the committee?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Nomination
 \item Election
 \item Others, please specify
@@ -1383,7 +1358,7 @@ B8. How did you become a part of the committee?
 B9. What are your responsibilities in the committee? (Enlist top five)
 
 B10. What is your interest as a part of this committee? (Pick top three concerns)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Voice resident concerns
 \item Voice vendor interests and challenges
 \item Represent government interests
@@ -1409,7 +1384,7 @@ C4. Is there a designated office space for the Town Vending Committee? (Skip C3 
 C5. Where is it located?
 
 C6. According to the rules, what activities have been completed by your TVC? (Use options to give examples)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Election for electing street vendors
 \item Formed Grievance Redressal Committee
 \item Identified street vendors
@@ -1424,7 +1399,7 @@ C8: Has the committee marked vending zones? (Skip C5 if the answer is no)
 
 C9. What factors are considered to mark vending zones? (Use options to give examples)
 (By natural markets, we mean: a market where sellers and buyers have traditionally congregated for the sale and purchase of products or services)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Traffic
 \item Locations preferred by the public
 \item Existing residents
@@ -1436,7 +1411,7 @@ C9. What factors are considered to mark vending zones? (Use options to give exam
 C10. How do you decide the holding capacity of the area?
 
 C11. Which body looks at vendor grievances?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Grievance redressal committee
 \item TVC
 \item Local authority
@@ -1446,7 +1421,7 @@ C11. Which body looks at vendor grievances?
 C12. What is the process for filing grievances?
 
 C13.  For which of the following does the committee maintain records?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Total numbers of street vendors identified
 \item Vending zones
 \item Registered vendors
@@ -1460,14 +1435,14 @@ C13.  For which of the following does the committee maintain records?
 \end{enumerate}
 
 C14. How are the records maintained? (Request documents)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Electronically
 \item Manually
 \end{enumerate}
 
 
 C15. What are the sources of revenue for the committee?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Funded by the government
 \item Vending fee
 \item Challans/fines
@@ -1476,7 +1451,7 @@ C15. What are the sources of revenue for the committee?
 
 
 C16. What is the amount for the following charges collected from the vendors:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Vending fee
 \item Maintenance fee
 \item Others
@@ -1490,7 +1465,7 @@ C18. What is the procedure in case a vendor can’t pay the vending/maintenance 
 
 
 C19. What fines/challans are applicable to the vendors, in case of non-compliance:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Penalty fee
 \item Challans
 \item Others
@@ -1507,7 +1482,7 @@ Ask D2-D8 only if the answer to D1 is yes
 D2. How many street vendors’ representatives does the TVC have?
 
 D3. If yes, how were the members appointed?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Nomination
 \item Election
 \item Lottery system
@@ -1519,7 +1494,7 @@ Ask D4-D9 only if the answer to D2 is ‘election’
 D4. How were the elections announced?
 
 D5. Which authority/officer was responsible to conduct the elections?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Municipal Corporation
 \item Municipal Council/Committee
 \item Planning Authority
@@ -1534,7 +1509,7 @@ D7. How are the zones decided for elections?
        zones and vendors left out)
 
 D8. What is the basis of shortlisting the contesting candidates?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Compliance of mandatory provisions as under Act and Rules
 \item Submission of authentic mandatory documents
 \item Missing signature on declaration form for nomination
@@ -1542,7 +1517,7 @@ D8. What is the basis of shortlisting the contesting candidates?
 \end{enumerate}
 
 D9. How are the names of elected members notified?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Website
 \item ULB office
 \item Other, please specify
@@ -1573,7 +1548,7 @@ B3. Which zones are your responsible for? (Enlist all)
 B4. How often does your agency report to the MCG?
 
 B5. What is the amount for the following charges collected from the vendors:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Convenience fee
 \item Cart fee
 \item Maintenance fee
@@ -1597,7 +1572,7 @@ B12. Do you have a role in spatial mapping of zones under the project?
 B13. Enforcement and regulation is sole responsibility of the firm. What does this entail?
 
 B14. What factors are considered to inspect vendors?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Adulteration (FSSAI norms), in case of food vendors
 \item Sanitation and hygiene
 \item Others
@@ -1608,7 +1583,7 @@ B15. Does any team from MCG visit the sites under your jurisdiction?
 B16. What is the frequency of their visits?
 
 B17.  For which of the following does your agency maintain records?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Total numbers of street vendors identified
 \item Vending zones
 \item Registered vendors
@@ -1638,7 +1613,7 @@ C8. Does the TVC have street vendors’ representatives? (Skip B15 if the answer
 C9. How many street vendors’ representatives does the TVC have?
 
 C10. Which body looks at vendor grievances?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Grievance redressal committee
 \item TVC
 \item Local authority
@@ -1659,7 +1634,7 @@ A1. Name:
 A2. Gender:
 
 A3. Type of vendor:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Mobile/Street
 \item Fixed
 \end{enumerate}
@@ -1669,7 +1644,7 @@ A4. Area of vending:
 A5. Are you a manager or owner of the cart?
 
 A6. Are you a part of any association?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Yes
 \item No
 \end{enumerate}
@@ -1677,7 +1652,7 @@ A6. Are you a part of any association?
 \textbf{Module B: Income and rents}
 
 B1. For how long have you been vending:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item 0-5 years
 \item 5-10 years
 \item 5-15 years
@@ -1685,7 +1660,7 @@ B1. For how long have you been vending:
 \end{enumerate}
 
 B2. What is your daily revenue/total sales?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item $>$300
 \item 500-1000
 \item 1000-2000
@@ -1694,7 +1669,7 @@ B2. What is your daily revenue/total sales?
 \end{enumerate}
 
 B3. What is your profit per day?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item $>$300
 \item 500-1000
 \item 1000-2000
@@ -1719,7 +1694,7 @@ C1. Are you aware of the Street Vendors Act 2014?
 \textbf{No}
 
 C2. What has changed in the past one year?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item I face less harassment by the police/other officials.
 \item I do not have to pay bribes/payment in kind.
 \item The government has allocated a vending space to me.
@@ -1747,7 +1722,7 @@ C5. Are you aware of the marked vending zones in this area?
 \textbf{Module D: Harassment/exploitation by police and other authorities}
 
 D1. Do you have visits by the following?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Government/ULB official
 \item Police officer
 \item Shopkeeper Association
@@ -1758,7 +1733,7 @@ D1. Do you have visits by the following?
 Ask D2-D5 if the answer to D1 is yes
 
 D2. What is the frequency by each of the above?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Daily
 \item Weekly
 \item Fortnightly
@@ -1770,7 +1745,7 @@ D2. What is the frequency by each of the above?
 \end{enumerate}
 
 D3. What is the intent of the inspectors/officials? (You may select more than one option)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item To ease the conduct of your business
 \item To check for violations
 \item To ensure the welfare of public
@@ -1782,7 +1757,7 @@ D3. What is the intent of the inspectors/officials? (You may select more than on
 \end{enumerate}
 
 D4. What are you expected to do in case they find faults during these visits? (You may select more than one option)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Relocate to another area: (with/without notice)
 \item Get your goods seized by officials
 \item Pay a bribe
@@ -1791,7 +1766,7 @@ D4. What are you expected to do in case they find faults during these visits? (Y
 \end{enumerate}
 
 D5. Where do you voice your problems?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item TVC
 \item Street vendor associations
 \item Grievance redressal committee
@@ -1804,7 +1779,7 @@ D5. Where do you voice your problems?
 E1. Does the TVC have street vendors’ representatives?
 
 E2. If yes, how were the members appointed?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Nomination
 \item Election
 \item Other, please specify
