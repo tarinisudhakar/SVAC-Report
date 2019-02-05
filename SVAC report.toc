@@ -1,0 +1,78 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Abbreviations}{5}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Executive Summary}{6}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Street Vendors in India: An Overview}{9}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{What Rights Do Street Vendors Have?}{9}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{How Does the Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014, Apply These Rights?}{9}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{How Has the Judiciary Interpreted the Act?}{11}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Summary of Issues Contested and Case Outcomes}{11}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Are Vendor Evictions Lawful?}{12}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Vendors Lacking Recourse to Challenge Voter Lists for TVC Elections}{16}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{How Do States Fare on Implementation?}{17}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Summary of Findings}{18}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{26 States Have Drafted and Notified the Rules}{18}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{10 States Have Drafted and Notified the Scheme}{19}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Four States Have Formed Grievance Redressal Committees}{19}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Of the 7,263 Towns from 30 States, 33\% Have Formed Town Vending Committees}{19}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Of the 2,382 Town Vending Committees Formed, 58\% Claim to Have Vendor Representation}{20}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Of the 2,382 Town Vending Committees Formed, 98\% Have Enumerated Vendors}{20}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Of the 2,382 Town Vending Committees Formed, 50\% Have Issued Identity Cards to 75\% of Identified Vendors}{21}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Twenty Percent of the TVCs Have A Published Street Vending Plan}{21}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Thirty-One Percent of Town Vending Committees Have Published the Street Vendor Charter}{21}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Six States Have Assigned Office Space to Town Vending Committees}{21}{table.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Which States Have Done Better Than The Others?}{22}{table.caption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Closer to the Field: Challenges in Implementation}{27}{table.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Gurugram: Hired Private Agencies to Manage and Regulate Vendors}{28}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Mandate of the Act v/s Mandate of the MCG: Only 14\% Vendor Representation in TVC, Instead of 40\%}{29}{table.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Mandate v/s Practice: Only 3 out of 17 Attendees Represented Vendors at the TVC Meeting, Resulting in Biased Decisions}{30}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Contracting out TVC functions: Enabling or disabling Governance?}{31}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Multiple Surveys, Multiple Identities?}{32}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{No Mechanism for Dispute Redressal, Despite Piling Complaints}{34}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Conclusion}{35}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bibliography}{38}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix 1: References for Legal Analysis}{39}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix 2: Formula Used to Calculate the Index}{46}{table.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix 3: Questionnaire for SV Act Implementation}{48}{table.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix 4: List of TVC members as mandated by MCG}{57}{Item.152}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix 5: List of TVC members as per TVC Meeting of August 2018}{58}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix 6: Receipt of Maintenance Fee Paid by Vendors}{59}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix 7: Complaint Made By a Private Party to MCG against RWA}{60}{figure.caption.11}
