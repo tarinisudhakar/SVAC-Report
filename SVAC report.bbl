@@ -281,6 +281,37 @@
       \verb https://bit.ly/2RCWnPz
       \endverb
     \endentry
+    \entry{rattanpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6a3b9440c134ae417721d236ac0cc908}{%
+           family={Rattan},
+           familyi={R\bibinitperiod},
+           given={Pariroo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{fullhash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{bibnamehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{authorbibnamehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{authornamehash}{6a3b9440c134ae417721d236ac0cc908}
+      \strng{authorfullhash}{6a3b9440c134ae417721d236ac0cc908}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Centre for Civil Society}
+      \field{title}{Street Vendors Act 2014: A Forgotten Promise?}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2REP21A
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2REP21A
+      \endverb
+    \endentry
     \entry{sallypaper}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=d0f1f3c04e55667cd012b6c5d19d64aa}{%
@@ -383,7 +414,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{ratanpaper}
 \endrefsection
 \endinput
 
