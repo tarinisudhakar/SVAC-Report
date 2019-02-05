@@ -6,6 +6,9 @@
 %For beautiful paragraph spacing
 \usepackage{parskip}
 \setlength{\parindent}{0in}
+\usepackage{enumitem}
+\usepackage{setspace}
+
 %Adding Pictures
 \usepackage{graphicx}
 \usepackage{float}
@@ -34,6 +37,11 @@
 \usepackage{longtable}
 \usepackage{makecell}
 \renewcommand\theadfont{\scriptsize}
+\usepackage{array}
+\usepackage{cellspace}
+\setlength\cellspacetoplimit{3pt}
+\setlength\cellspacebottomlimit{3pt}
+
 %Coloured Boxes
 \usepackage{xcolor}
 \usepackage{mdframed}
@@ -41,6 +49,7 @@
 \usepackage{setspace}
 \pretolerance=10000
 \emergencystretch=10pt
+
 %preventing widow/orphan lines
 \widowpenalty10000 % required to prevent widow/orphan lines
 \clubpenalty10000 % required to prevent widow/orphan lines
@@ -72,6 +81,9 @@ urlcolor = CCSblack}
 \usepackage{blindtext}
 
 %Symbols
+\newcommand{\quotes}[1]{``#1''}
+
+
 \begin{document}
 
 \newpage
@@ -191,7 +203,7 @@ Despite their contribution to the urban economy, vendors are often considered �
 Two kinds of rights define the ownership of a vendor over a property. The first is the “right to vend from a particular area” or rights over the immovable property hawkers operate from. The second is the “right to ownership of the movables that are used for conducting trade” \parencite{ccspaper}.
 
 The salient policy problem, given the contrasting and often competing interests over the use of public space, is marking the precedence, extent and limits of the rights of all users. Managing conflicting claims of street vendors, pavement users, local residents, vehicular traffic and urban space managers is central to designing and implementing the regulatory framework for street vending.
-
+\newpage
 \subsection*{How Does the Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014, Apply These Rights?}
 \addcontentsline{toc}{subsection}{How Does the Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014, Apply These Rights?}
 
@@ -211,6 +223,7 @@ The Act relegates powers to enumerate, identify and allocate vendors to zones to
 
 A TVC is required to conduct periodic enumeration (once in every 5 years) of local street vendors. There is no artificial limit of the number of street vendors, creating a permitting framework instead of a licensing regime. The TVC is required to accommodate all identified vendors in the vending zones, subject to the holding capacity.  If the number of vendors identified exceeds the holding capacity, they are to be accommodated in an adjoining location to “avoid relocation.” The Act categorically rules out any attempt to evict or relocate vendors and declare no-vending zones, prior to the completion of the survey.
 
+\newpage
 \textbf{Independent Dispute Redressal Mechanism to Ensure Grievances Are Heard }
 
 The Act mandates the state government to establish one or more independent committees, chaired by ex-judicial officers, for redressal of disputes and complaints filed by the street vendors. The Act categorically excludes any “employee of the appropriate government or the local authority” from the committee to ensure impartial decisions. In doing so, the Act recognises the need to place checks on administrative decisions and curb harassment by municipal authorities.
@@ -220,7 +233,7 @@ The Act mandates the state government to establish one or more independent commi
 In 2017, we developed an index to rank states on their progress in and fidelity to the implementation of the Act. We lodged applications under the Right to Information Act, 2005 across 30 states and union territories in India, compiled court judgements and analysed secondary sources including news stories. After collating data, we used a weighted scoring method to assess state-wise performance.
 
 
-
+The report evaluates the extent of application of the new legal and governance framework to spatial conflicts and its impact on vendors. We argue that the ineffective role played by the judiciary and lackadaisical implementation by the states, makes the Act fall short of fulfilling its intended objective, that is protecting the rights of urban street vendors.
 %===================HOW HAS THE JUDICIARY INTERPRETED===============
 \section*{How Has the Judiciary Interpreted the Act?}
 \addcontentsline{toc}{section}{How Has the Judiciary Interpreted the Act?}
@@ -229,22 +242,22 @@ In 2017, we developed an index to rank states on their progress in and fidelity 
 \subsection*{Summary of Issues Contested and Case Outcomes}
 \addcontentsline{toc}{subsection}{Summary of Issues Contested and Case Outcomes}
 
-\begin{itemize}
+\begin{itemize}[nosep]
 \item \textbf{Eviction is the single most contested issue:} In 47 out of 57 cases, vendors or their representatives challenged what they considered “unlawful eviction.”
 
 \begin{itemize}
-\item 	Eviction in these cases resulted mainly from: (1) the ambiguity surrounding the definition of a vendor under the law and their identification in the absence of enumeration surveys; and (2) the conflicted understanding of vending and no-vending zones, with some courts still upholding the demarcations made before the Act.
+\item Eviction in these cases resulted mainly from: (1) the ambiguity surrounding the definition of a vendor under the law and their identification in the absence of enumeration surveys; and (2) the conflicted understanding of vending and no-vending zones, with some courts still upholding the demarcations made before the Act.
 
+\item Other issues of contention relate to the representation of vendors in TVC, transparency in street vendor elections, enumeration of street vendors, permissions to change trade and implementation of the Act.
 
 \end{itemize}
-
 \end{itemize}
 
 \begin{itemize}
 
 \begin{itemize}
-\item 	Of the 24 cases where courts ruled against the vendor petitioner, 20 petitions challenged unlawful evictions or harassment. 14 out of these 20 adverse decisions were pronounced by the High Court of Delhi.
-\item 	In 21 cases where courts issued deferrals, the decisions likely cemented the status quo.
+\item Of the 24 cases where courts ruled against the vendor petitioner, 20 petitions challenged unlawful evictions or harassment. 14 out of these 20 adverse decisions were pronounced by the High Court of Delhi.
+\item In 21 cases where courts issued deferrals, the decisions likely cemented the status quo.
 \end{itemize}
 \end{itemize}
 
@@ -361,9 +374,9 @@ These 11 questions were also sent to the Deendayal Antyodaya–National Urban Li
 \addcontentsline{toc}{subsection}{Summary of Findings}
 
 \begin{itemize}
-	\item Four states—Arunachal Pradesh, Karnataka, Telangana and Nagaland—are yet to comply with step 1 on notifying the rules.
+	\item Four states\textemdash Arunachal Pradesh, Karnataka, Telangana and Nagaland\textemdash are yet to comply with step 1 on notifying the rules.
 	\item Nineteen states have completed step 2, notification of scheme but but well after the statutory deadline of October 2014.
-	\item Four states—Assam, Madhya Pradesh, Punjab and Uttarakhand—have implemented step 3, the formation of the Grievance Redressal Committees.
+	\item Four states---Assam, Madhya Pradesh, Punjab and Uttarakhand --- have implemented step 3, the formation of the Grievance Redressal Committees.
 	\item Of the 7,263 towns from 30 states, 33\% have complied with step 4, formation of TVC.
 	\item Of the 2,382 TVCs formed, 58\% have complied with step 5, vendor representation in the TVCs.
 	\item Of the TVCs formed, 98\% have completed step 6, vendor enumeration.
@@ -734,23 +747,32 @@ Seventy-four towns in the state shave formed 103 TVCs with elected vendors.
             \scriptsize
              \begin{landscape}
   \rowcolors{2}{gray!25}{white}
-            \begin{longtable}{>{\raggedright}p{2cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{1.0cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright}p{0.5cm}>{\raggedright\arraybackslash}p{0.5cm}}
+  \centering
+            \begin{longtable}{p{2cm}p{0.5cm}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{1.0cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft}p{0.5cm}>{\raggedleft\arraybackslash}p{0.5cm}}
             \caption{Step-Wise Data on Implementation for 30 states, as of October 31 2019}
             \label{tab: Index}\\
-\rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ vendor representatives}} &
-\rotatebox[origin=c]{90}{Completed enumeration} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ completed enumeration}} &
- \rotatebox[origin=c]{90}{\% of towns with GRC} \\
-\endfirsthead
-\rotatebox[origin=c]{90}{\thead{\% of TVCs with \\ vendor representatives}} &
-\rotatebox[origin=c]{90}{Completed enumeration} &
- \rotatebox[origin=c]{90}{\thead{\% of TVCs that \\ completed enumeration}} &
- \rotatebox[origin=c]{90}{\% of towns with GRC} \\
-\endhead
-\endfoot
-\hline
-\endlastfoot
-\midrule
+States &
+\rotatebox{90}{Rules} &
+\rotatebox{90}{Scheme} &
+\rotatebox{90}{Towns} &
+\rotatebox{90}{Total TVCs} &
+\rotatebox{90}{\thead{Total TVCs/ \\ Total towns (\%)}} &
+\rotatebox{90}{\thead{Have vendor \\ representatives}} &
+\rotatebox{90}{\thead{\% of TVCs with \\ vendor representatives}} &
+\rotatebox{90}{Completed enumeration} &
+ \rotatebox{90}{\thead{\% of TVCs that \\ completed enumeration}} &
+ \rotatebox{90}{\thead{Issued IDs to \textgreater 75\% \\ vendors}} &
+ \rotatebox{90}{\thead{\% of TVCs that \\ issued ID \textgreater  75\% of \\ identified vendors}} &
+ \rotatebox{90}{Published plan} &
+ \rotatebox{90}{\thead{\% of TVCs with \\ published plan}} &
+ \rotatebox{90}{Vending zones} &
+ \rotatebox{90}{\thead{\% of TVCs that marked \\ vending zones}} &
+ \rotatebox{90}{Published charter} &
+ \rotatebox{90}{\thead{\% of TVCs that \\ published charter}} &
+ \rotatebox{90}{Assigned office space} &
+ \rotatebox{90}{\thead{\% of TVCs that have \\ assigned office space}} &
+ \rotatebox{90}{\# of GRCs in the state} &
+ \rotatebox{90}{\% of towns with GRC} \\
 
 AP & Y & Y & 110 & 110 & 100 & 110 & 100 & 110 & 100 & 85 & 77 & 1 & 1 & 50 & 45 & 0 & 0 & 0 & 0 & 0 & 0 \\
 AR & N & N & 33 & 15 & 45 & 10 & 67 & 14 & 93 & 14 & 93 & 8 & 53 & 4 & 27 & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -784,7 +806,7 @@ UK & Y & Y & 93 & 40 & 43 & 0 & 0 & 55 & 138 & 10 & 25 & 0 & 0 & 0 & 0 & 0 & 0 &
 WB & Y & N & 239 & 3 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
 \midrule
 Sum Total / \% & 0 & 0 & 7263 & 2382 & 33 & 1391 & 58 & 2334 & 98 & 1183 & 50 & 466 & 20 & 615 & 26 & 738 & 31 & 422 & 18 & 21 & 13 \\
-No. of States that \\ Initiated Work & 24 & 0 &  & 30 &  & 16 &  & 27 &  & 20 &  & 17 &  & 21 &  & 7 &  & 6 &  & 4 & 4 \\
+No. of States that Initiated Work & 24 & 0 &  & 30 &  & 16 &  & 27 &  & 20 &  & 17 &  & 21 &  & 7 &  & 6 &  & 4 & 4 \\
 
 \end{longtable}
 \end{landscape}
@@ -926,6 +948,7 @@ The costs imposed on vendors and its impact are pertinent subjects but outside t
 
 
 %===================CONCLUSIONS/RECOMMENDATIONS==================
+\newpage
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
 
@@ -961,31 +984,43 @@ In SumThe Act has the potential to redefine historically ambivalent vendors’ r
 \addcontentsline{toc}{section}{Appendix 1: References for Legal Analysis}
 \label{sec: Appendix 1}
             \scriptsize
-              \rowcolors{2}{gray!25}{white}
-            \begin{longtable}{>{\raggedright}p{1.5cm}>{\raggedright}p{2.5cm}>{\raggedright}p{1.3cm}>{\raggedright}p{1.5cm}>{\raggedright}p{1.1cm}>{\raggedright}p{1.2cm}>{\raggedright}p{0.8cm}>{\raggedright}p{1.8cm}>{\raggedright}p{1.3cm}>{\raggedright}p{4.45cm}>{\raggedright\arraybackslash}p{1.2cm}}
+              \rowcolors{3}{gray!25}{white}
+            \begin{longtable}{>{\raggedright}p{1.5cm}>{\raggedright}p{2.5cm}>{\raggedright}p{1.3cm}>{\raggedright}p{1.5cm}>{\raggedright}p{1.1cm}>{\raggedright}p{1.2cm}>{\raggedright}p{1cm}>{\raggedright}p{1.8cm}>{\raggedright}p{1.3cm}>{\raggedright}p{4.45cm}>{\raggedright\arraybackslash}p{1.2cm}}
+
             \caption{Street Vendor Case Data}\\
-{\thead{Date of \\ Judgement}} &
-{\thead{Relevant \\ (Y/N)}} &
+
+Case Citation &
+Case Title &
+Case No. &
+Court &
+State &
+Date of \\ Judgement &
+Relevant \\ (Y/N) &
 Issue &
 Outcome &
-{\thead{Decisions/Rule Laid Down}} &
-{\thead{Significance\footnotemark \\(1–5)}}\\ 
+Decisions/Rule Laid Down &
+Significance (1-5) \footnotemark \\
 \midrule
 \endfirsthead
 %\rotatebox[origin=c]{90}
-{\thead{Date of \\ Judgement}} &
-{\thead{Relevant \\ (Y/N)}} &
+Case Citation &
+Case Title &
+Case No. &
+Court &
+State &
+Date of \\ Judgement &
+Relevant \\ (Y/N) &
 Issue &
 Outcome &
-{\thead{Decisions/Rule Laid Down}} &
-{\thead{Significance\footnotemark \\(1–5)}}\\ 
+Decisions/Rule Laid Down &
+Significance (1-5) \\
 \midrule
 \endhead
 \bottomrule
 \endfoot
 \bottomrule
 \endlastfoot
-
+\footnotetext{Significance indicated the likelihood of a case to be quoted and cited in subsequent decisions.}
 
 MANU/TN/10\\57/2018 & A.T. Mhammed Ismail and Ors v. The Commissioner, Greater Chennai Corporation and Ors & WP Nos. 4171 and 4172 of 2018 & High Court of Madras & Tamil Nadu & 2/26/2018 & Y & Eviction & Deferred  & When statute contemplates the issuance of certificate and right to carry on the business of street vending in accordance with the terms and conditions mentioned in the certificate of vending, and when a representation is made by street vendors, it is the duty of the competent authority to consider such representation and pass appropriate orders. & 2  \\
 
@@ -1067,12 +1102,13 @@ MANU/SCOR\\/17149/2018 & Self-Employed Welfare Association v. The State Commissi
 
 (2) TVC will consider the case of the petitioner in accordance with law and expeditiously after considering all the material on record.
 
-(3) Merely because the petitioner is not found vending at the site when the survey is conducted, that by itself would not be a ground alone to reject his case. 
+(3) Merely because the petitioner is not found vending at the site when the survey is conducted, that by itself would not be a ground alone to reject his case.
 
 (4) Rules are notified.} & 1\\
 
 MANU/KE/17\\24/2018 & Sudheesh T.S v. State of Kerala and Ors & WP(C) 17792/2018 & High Court of Kerala & Kerala & 7/10/2018 & Y & Eviction; relocation; legislative overlap & Deferred & Competent authority to consider applications after hearing the petitioners without much delay. &  \\
 
+2017 SCC ONLINE BOM 571 & Thane Zilla (Maharashtra) Hawkers Union v State of Maharastra and Ors & WP (ST) 4622/2017 & High Court of Bombay & Maharash tra & 3/6/2017 & Y & TVC constituted without street vendor representation & Directions & \quotes{1) Local authorities to comeback with a statement as to how they intent to remove the anamoly created;
 
 2) Local authority to keep 8 vacancies unfilled in the TVC can proceed with the other 12 members.} & 3 \\
 
@@ -1085,7 +1121,6 @@ MANU/DE/20\\90/2018 & Vijay Kumar Sahu and Ors v. Govt. of NCT and Ors & WP(C) 7
 2017 SCC ONLINE DEL 11779 & Virender v. South Delhi Municipal Corporation & WP(C) 11552/2016 & High Court of Delhi & Delhi & 10/25/2017 & Y & Definition of street vendor; eviction & Partially dismissed; consent decree & No-vending zone as decided prior to the Act to be continued; the Act is applicable only to \quotes{regular street vendors}. No relief to be granted to petitioners 1 to 9 who are not regular street vendors. & 2 \\
 
 \end{longtable}
-\footnotetext{Significance indicated the likelihood of a case to be quoted and cited in subsequent decisions.}
 \end{landscape}
 
 
@@ -1127,6 +1162,7 @@ $V_8$ & Proportion of TVCs that have \textbf{earmarked vending zones} & 7 & $7 *
 $V_9$ & Proportion of TVCs that have \textbf{a vending plan} & 7 & $7 * V_9$\\
 $V_{10}$ & Proportion of TVCs that have \textbf{published a charter} & 6 & $6 * V_{10}$\\
 $V_{11}$ & Proportion of TVCs that have \textbf{assigned office space} & 4 & $4 * V_{11}$\\
+\midrule
 & & 100 & $\sum_{i = 1}^{i = n} \alpha_i V_i$\\
 \end{longtable}
 
@@ -1137,11 +1173,15 @@ $V_{11}$ & Proportion of TVCs that have \textbf{assigned office space} & 4 & $4 
 \label{sec: Appendix 5}
 
 
+\begin{mdframed}[backgroundcolor=gray!20]
 \textbf{Module A: Basic information}
 
 A1. Name of the respondent:
+
 A2. Gender: M/F/Other
+
 A3. Designation in committee:
+
 
 \textbf{Module B: Constitution of a Town Vending Committee}
 
@@ -1153,7 +1193,7 @@ B3. How many members are there on the committee?
 
 B4. What is your role in the committee? (Specify organisation where necessary)
 
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Municipal commissioner
 \item Local body official
 \item Traffic Police official
@@ -1171,7 +1211,8 @@ B6. Who is the Chairperson of the town vending committee of each ward/zone?
 
 B7. Since when have you been a part of this TVC?
 
-\begin{enumerate}
+B8. How did you become a part of the committee?
+\begin{enumerate}[nosep]
 \item Nomination
 \item Election
 \item Others, please specify
@@ -1179,7 +1220,7 @@ B7. Since when have you been a part of this TVC?
 B9. What are your responsibilities in the committee? (Enlist top five)
 
 B10. What is your interest as a part of this committee? (Pick top three concerns)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Voice resident concerns
 \item Voice vendor interests and challenges
 \item Represent government interests
@@ -1204,7 +1245,7 @@ C4. Is there a designated office space for the Town Vending Committee? (Skip C3 
 C5. Where is it located?
 
 C6. According to the rules, what activities have been completed by your TVC? (Use options to give examples)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Election for electing street vendors
 \item Formed Grievance Redressal Committee
 \item Identified street vendors
@@ -1219,7 +1260,7 @@ C8: Has the committee marked vending zones? (Skip C5 if the answer is no)
 
 C9. What factors are considered to mark vending zones? (Use options to give examples)
 (By natural markets, we mean: a market where sellers and buyers have traditionally congregated for the sale and purchase of products or services)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Traffic
 \item Locations preferred by the public
 \item Existing residents
@@ -1230,7 +1271,7 @@ C9. What factors are considered to mark vending zones? (Use options to give exam
 
 
 C11. Which body looks at vendor grievances?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Grievance redressal committee
 \item TVC
 \item Local authority
@@ -1240,7 +1281,7 @@ C11. Which body looks at vendor grievances?
 C12. What is the process for filing grievances?
 
 C13.  For which of the following does the committee maintain records?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Total numbers of street vendors identified
 \item Vending zones
 \item Registered vendors
@@ -1253,14 +1294,14 @@ C13.  For which of the following does the committee maintain records?
 \end{enumerate}
 
 C14. How are the records maintained? (Request documents)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Electronically
 \item Manually
 \end{enumerate}
 
 
 C15. What are the sources of revenue for the committee?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Funded by the government
 \item Vending fee
 \item Challans/fines
@@ -1269,7 +1310,7 @@ C15. What are the sources of revenue for the committee?
 
 
 C16. What is the amount for the following charges collected from the vendors:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Vending fee
 \item Maintenance fee
 \item Others
@@ -1283,7 +1324,7 @@ C18. What is the procedure in case a vendor can’t pay the vending/maintenance 
 
 
 C19. What fines/challans are applicable to the vendors, in case of non-compliance:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Penalty fee
 \item Challans
 \item Others
@@ -1300,7 +1341,7 @@ Ask D2-D8 only if the answer to D1 is yes
 D2. How many street vendors’ representatives does the TVC have?
 
 D3. If yes, how were the members appointed?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Nomination
 \item Election
 \item Lottery system
@@ -1312,7 +1353,7 @@ Ask D4-D9 only if the answer to D2 is ‘election’
 D4. How were the elections announced?
 
 D5. Which authority/officer was responsible to conduct the elections?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Municipal Corporation
 \item Municipal Council/Committee
 \item Planning Authority
@@ -1324,14 +1365,14 @@ D7. How are the zones decided for elections?
 
        zones and vendors left out)
 D8. What is the basis of shortlisting the contesting candidates?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Compliance of mandatory provisions as under Act and Rules
 \item Missing signature on declaration form for nomination
 \item Other, please specify
 \end{enumerate}
 
 D9. How are the names of elected members notified?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Website
 \item ULB office
 \item Other, please specify
@@ -1359,7 +1400,7 @@ B3. Which zones are your responsible for? (Enlist all)
 
 
 B5. What is the amount for the following charges collected from the vendors:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Convenience fee
 \item Cart fee
 \item Maintenance fee
@@ -1381,7 +1422,7 @@ B12. Do you have a role in spatial mapping of zones under the project?
 
 
 B14. What factors are considered to inspect vendors?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Adulteration (FSSAI norms), in case of food vendors
 \item Others
 \end{enumerate}
@@ -1390,7 +1431,7 @@ B15. Does any team from MCG visit the sites under your jurisdiction?
 
 
 B17.  For which of the following does your agency maintain records?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Total numbers of street vendors identified
 \item Vending zones
 \item Registered vendors
@@ -1419,7 +1460,7 @@ C8. Does the TVC have street vendors’ representatives? (Skip B15 if the answer
 C9. How many street vendors’ representatives does the TVC have?
 
 C10. Which body looks at vendor grievances?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Grievance redressal committee
 \item TVC
 \item Local authority
@@ -1437,7 +1478,7 @@ C12. What is the process for filing grievances?
 A2. Gender:
 
 A3. Type of vendor:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Mobile/Street
 \item Fixed
 \end{enumerate}
@@ -1446,13 +1487,13 @@ A4. Area of vending:
 
 
 A6. Are you a part of any association?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Yes
 \item No
 \end{enumerate}
 \textbf{Module B: Income and rents}
 B1. For how long have you been vending:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item 0-5 years
 \item 5-10 years
 \item 5-15 years
@@ -1460,7 +1501,7 @@ B1. For how long have you been vending:
 \end{enumerate}
 
 B2. What is your daily revenue/total sales?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item $>$300
 \item 500-1000
 \item 1000-2000
@@ -1469,7 +1510,7 @@ B2. What is your daily revenue/total sales?
 \end{enumerate}
 
 B3. What is your profit per day?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item $>$300
 \item 500-1000
 \item 1000-2000
@@ -1492,7 +1533,7 @@ C1. Are you aware of the Street Vendors Act 2014?
 \textbf{No}
 
 C2. What has changed in the past one year?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item I face less harassment by the police/other officials.
 \item I do not have to pay bribes/payment in kind.
 \item The government has allocated a vending space to me.
@@ -1517,7 +1558,8 @@ C4. Do you have a license/certificate of vending? (If yes, ask for a copy)
 
 \textbf{Module D: Harassment/exploitation by police and other authorities}
 
-\begin{enumerate}
+D1. Do you have visits by the following?
+\begin{enumerate}[nosep]
 \item Government/ULB official
 \item Police officer
 \item Shopkeeper Association
@@ -1527,7 +1569,7 @@ C4. Do you have a license/certificate of vending? (If yes, ask for a copy)
 Ask D2-D5 if the answer to D1 is yes
 
 D2. What is the frequency by each of the above?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Daily
 \item Weekly
 \item Fortnightly
@@ -1539,7 +1581,7 @@ D2. What is the frequency by each of the above?
 \end{enumerate}
 
 D3. What is the intent of the inspectors/officials? (You may select more than one option)
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item To ease the conduct of your business
 \item To check for violations
 \item To ensure the welfare of public
@@ -1550,14 +1592,15 @@ D3. What is the intent of the inspectors/officials? (You may select more than on
 \item To harass and get bribes or benefits
 \end{enumerate}
 
-\begin{enumerate}
+D4. What are you expected to do in case they find faults during these visits? (You may select more than one option)
+\begin{enumerate}[nosep]
 \item Relocate to another area: (with/without notice)
 \item Get your goods seized by officials
 \item Pay a bribe
 \end{enumerate}
 
 D5. Where do you voice your problems?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item TVC
 \item Street vendor associations
 \item Grievance redressal committee
@@ -1570,7 +1613,7 @@ D5. Where do you voice your problems?
 E1. Does the TVC have street vendors’ representatives?
 
 E2. If yes, how were the members appointed?
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item Nomination
 \item Election
 \item Other, please specify
@@ -1599,8 +1642,8 @@ E5. Who conducted the elections?
 
 %Appendix 5
 \newpage
-\section*{Appendix 5: List of TVC members as per TVC \\Meeting of August 2018}
-\addcontentsline{toc}{section}{Appendix 5: List of TVC members as per TVC \\Meeting of August 2018}
+\section*{Appendix 5: List of TVC members as per TVC Meeting of August 2018}
+\addcontentsline{toc}{section}{Appendix 5: List of TVC members as per TVC Meeting of August 2018}
 \begin{figure}[h]
 \centering
 \includegraphics[width=7in]{ListofTVC.pdf}
