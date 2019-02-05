@@ -1,0 +1,389 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{bromleypaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c5d56409464b2f456b1af480c49c6262}{%
+           family={Bromley},
+           familyi={B\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{fullhash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{bibnamehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{authorbibnamehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{authornamehash}{c5d56409464b2f456b1af480c49c6262}
+      \strng{authorfullhash}{c5d56409464b2f456b1af480c49c6262}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Sociology and Social Policy}
+      \field{title}{Street Vending and Public Policy: A Global Review}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://bit.ly/2GkvhdK
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2GkvhdK
+      \endverb
+    \endentry
+    \entry{ccspaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fc23b601cafd8836839e3b003fe761fb}{%
+           family={Chandra},
+           familyi={C\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d386ae1d9eedfdbbb020fc13fbab0caa}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Rajul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{fullhash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{bibnamehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{authorbibnamehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{authornamehash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \strng{authorfullhash}{4311b0d0b73d7af34d017a4afccf81ca}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Centre for Civil Society}
+      \field{title}{Property Rights of Street Vendors}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2UHd3r0
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2UHd3r0
+      \endverb
+    \endentry
+    \entry{hayekpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=60c0d366fef77217ae7c9a7e3dab2c20}{%
+           family={Hayek},
+           familyi={H\bibinitperiod},
+           given={Friedrich\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{fullhash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{bibnamehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{authorbibnamehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{authornamehash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \strng{authorfullhash}{60c0d366fef77217ae7c9a7e3dab2c20}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Economic Review}
+      \field{title}{The Use of Knowledge in Society}
+      \field{year}{1945}
+      \verb{urlraw}
+      \verb https://bit.ly/2TqX3bU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2TqX3bU
+      \endverb
+    \endentry
+    \entry{iloreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6723fa2369563301a71ba27e0b472aff}{%
+           family={{International Labour Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Labour Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{fullhash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{bibnamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authorbibnamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authornamehash}{6723fa2369563301a71ba27e0b472aff}
+      \strng{authorfullhash}{6723fa2369563301a71ba27e0b472aff}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Women and Men in the Informal Economy: A Statistical Picture}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2P5g4y4
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2P5g4y4
+      \endverb
+    \endentry
+    \entry{jhapaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0880ffbaf3edcf0e0f5bf4f4354576d}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={Ramnath},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{fullhash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{bibnamehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{authorbibnamehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{authornamehash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \strng{authorfullhash}{d0880ffbaf3edcf0e0f5bf4f4354576d}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Observer Research Foundation}
+      \field{title}{Strengthening Urban India's Informal Economy: The Case of Street Vending}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2WGeYhi
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2WGeYhi
+      \endverb
+    \endentry
+    \entry{kpmgreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6d0aa49c92033841df105790bbfa3829}{%
+           family={{KPMG India}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {KPMG India}%
+      }
+      \strng{namehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{fullhash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{bibnamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authorbibnamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authornamehash}{6d0aa49c92033841df105790bbfa3829}
+      \strng{authorfullhash}{6d0aa49c92033841df105790bbfa3829}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Urbanisation in the National Capital Region- Overcoming Challenges to improve live-ability}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2t1ndqv
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2t1ndqv
+      \endverb
+    \endentry
+    \entry{naikpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5a1c4cde1246f56c5776298b059aecf4}{%
+           family={Naik},
+           familyi={N\bibinitperiod},
+           given={Abhayraj},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{fullhash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{bibnamehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{authorbibnamehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{authornamehash}{5a1c4cde1246f56c5776298b059aecf4}
+      \strng{authorfullhash}{5a1c4cde1246f56c5776298b059aecf4}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Socio-Legal Review}
+      \field{title}{‘Wizards at Making a Virtue of Necessity’: Street Vendors in India’}
+      \field{volume}{11}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2WFrvkZ
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2WFrvkZ
+      \endverb
+    \endentry
+    \entry{ncrpbreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=40cc8c9d2d2ed58f3fb723bb9da236ae}{%
+           family={{NCRPB}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Capital Region Planning Board, Ministry of Urban Development, Govt. of India}%
+      }
+      \list{location}{1}{%
+        {New Delhi, India}%
+      }
+      \strng{namehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{fullhash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{bibnamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authorbibnamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authornamehash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \strng{authorfullhash}{40cc8c9d2d2ed58f3fb723bb9da236ae}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Draft Revised Regional Plan 2021 National Capital Region}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2RCWnPz
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2RCWnPz
+      \endverb
+    \endentry
+    \entry{sallypaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0f1f3c04e55667cd012b6c5d19d64aa}{%
+           family={Roever},
+           familyi={R\bibinitperiod},
+           given={Sally},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{fullhash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{bibnamehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{authorbibnamehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{authornamehash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \strng{authorfullhash}{d0f1f3c04e55667cd012b6c5d19d64aa}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cityscape}
+      \field{title}{Informal Trade Meets Informal Governance: Street Vendors and Legal Reform in India, South Africa, and Peru}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2RDBVh6
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2RDBVh6
+      \endverb
+    \endentry
+    \entry{scottbook}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e13a6d907b53f69b2f77261a1dee00e4}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{2}{%
+        {New Haven}%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{e13a6d907b53f69b2f77261a1dee00e4}
+      \strng{fullhash}{e13a6d907b53f69b2f77261a1dee00e4}
+      \strng{bibnamehash}{e13a6d907b53f69b2f77261a1dee00e4}
+      \strng{authorbibnamehash}{e13a6d907b53f69b2f77261a1dee00e4}
+      \strng{authornamehash}{e13a6d907b53f69b2f77261a1dee00e4}
+      \strng{authorfullhash}{e13a6d907b53f69b2f77261a1dee00e4}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Yale Agrarian Studies Series}
+      \field{title}{Seeing Like a State}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://bit.ly/2RB6QL1
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2RB6QL1
+      \endverb
+    \endentry
+    \entry{vermanews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=585e2df0e223aa57821bc62ce5123735}{%
+           family={Verma},
+           familyi={V\bibinitperiod},
+           given={Shrutika},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{fullhash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{bibnamehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{authorbibnamehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{authornamehash}{585e2df0e223aa57821bc62ce5123735}
+      \strng{authorfullhash}{585e2df0e223aa57821bc62ce5123735}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LiveMint}
+      \field{title}{Start me up, Gurgaon}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2LdaOdJ
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2LdaOdJ
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{ratanpaper}
+\endrefsection
+\endinput
+
